@@ -27,7 +27,7 @@ def get_clients():
 text_client, image_client = get_clients()
 
 # ── UI ────────────────────────────────────────────────────────────────────────
-st.title("Room AI — Generate or Decorate")
+st.title("Room Interior AI — Generate or Decorate")
 
 uploaded_image = st.file_uploader(
     "Upload a room photo to **decorate** it (PNG/JPG, optional)",
